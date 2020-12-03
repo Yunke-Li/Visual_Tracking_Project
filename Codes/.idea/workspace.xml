@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="901d814f-aefb-463b-9609-6cf019eabf29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606862404601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code update">
+      <created>1607022280897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607022280897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,10 +123,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="759" y="279" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1606860962770" />
-    <state x="242" y="52" key="CommitChangelistDialog2" timestamp="1607022235494">
+    <state x="242" y="52" key="CommitChangelistDialog2" timestamp="1607022279942">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="52" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1607022235494" />
+    <state x="242" y="52" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1607022279942" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1607022388338">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1607022388338" />
     <state width="1397" height="301" key="GridCell.Tab.0.bottom" timestamp="1606862448597">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -152,14 +163,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="301" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state x="222" y="103" key="SettingsEditor" timestamp="1606857470176">
+    <state x="431" y="176" key="MultipleFileMergeDialog" timestamp="1607022326361">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1606857470176" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606862412992">
+    <state x="431" y="176" key="MultipleFileMergeDialog/0.0.1440.920@0.0.1440.920" timestamp="1607022326361" />
+    <state x="222" y="103" key="SettingsEditor" timestamp="1607022375286">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1606862412992" />
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1607022375286" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1607022294953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1607022294953" />
     <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1603822854238">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -167,13 +182,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
