@@ -4,6 +4,7 @@
     <list default="true" id="901d814f-aefb-463b-9609-6cf019eabf29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +64,6 @@
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -73,7 +71,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -82,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.1" />
       </list>
@@ -112,58 +111,81 @@
       <option name="project" value="LOCAL" />
       <updated>1607022280897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="code update">
+      <created>1607022413726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607022413726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="utils merge">
+      <created>1607022501534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607022501534</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme update">
+      <created>1607022594569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607022594569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code update" />
-    <option name="LAST_COMMIT_MESSAGE" value="code update" />
+    <MESSAGE value="utils merge" />
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="759" y="279" key="#xdebugger.evaluate" timestamp="1606860962770">
+    <state x="803" y="271" key="#xdebugger.evaluate" timestamp="1607042861231">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="759" y="279" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1606860962770" />
-    <state x="242" y="52" key="CommitChangelistDialog2" timestamp="1607022500736">
+    <state x="803" y="271" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1607042861231" />
+    <state x="242" y="52" key="CommitChangelistDialog2" timestamp="1607022593932">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="52" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1607022500736" />
+    <state x="242" y="52" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1607022593932" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1607022388338">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1607022388338" />
-    <state width="1397" height="301" key="GridCell.Tab.0.bottom" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.0.bottom" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.0.center" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.0.center" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.0.left" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.0.left" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.0.right" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.0.right" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.1.bottom" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.1.bottom" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.1.center" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.1.center" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.1.left" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.1.left" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
-    <state width="1397" height="301" key="GridCell.Tab.1.right" timestamp="1606862448597">
+    <state width="1397" height="301" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
+    <state width="1397" height="301" key="GridCell.Tab.1.right" timestamp="1607048014305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="301" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1606862448597" />
+    <state width="1397" height="301" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1607048014305" />
     <state x="431" y="176" key="MultipleFileMergeDialog" timestamp="1607022326361">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -172,10 +194,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1607022375286" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1607022512481">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1607022600218">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1607022512481" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1607022600218" />
     <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1603822854238">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
