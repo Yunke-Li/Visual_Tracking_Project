@@ -38,7 +38,7 @@ sigma = (target_size[0] + target_size[1])/2
 window = hamming_window * np.exp(-0.5/(sigma*sigma)*dist)
 window = hamming_window/window.sum()
 #
-files = os.listdir(path)   # 读入文件夹
+files = os.listdir(path)   
 num_img = len(files)
 maxconf = np.empty([num_img-1])
 conftmp = []
