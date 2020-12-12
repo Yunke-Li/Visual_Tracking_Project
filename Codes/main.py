@@ -4,10 +4,11 @@ import math
 import cv2
 from utils import get_context
 
+
 # set path
-path = '..\\data'
+path = '..\\frame'
 # initialization
-inistate = [161, 65, 75, 95]
+inistate = [221, 75, 61, 91]
 pos = [inistate[1]+inistate[3]/2, inistate[0]+inistate[2]/2]
 target_size = [inistate[3], inistate[2]]
 target_size = np.array(target_size)
@@ -19,7 +20,7 @@ size_y = math.floor(target_size[1]*(1+padding))
 # parameters of scale update. See Eq.(15)
 scale = 1
 lam = 0.25
-num = 30
+num = 8
 # store pre-computed confidence map
 alpha = 2.25
 x = np.arange(1, size_x+1, 1) - np.floor(size_x/2)
@@ -43,7 +44,7 @@ num_img = len(files)
 maxconf = np.empty([num_img-1])
 conftmp = []
 
-for frame in range(1, num_img+1):
+for frame in range(1, num_img):
     sigma = sigma * scale
     window = hamming_window * np.exp(-0.5 / (sigma * sigma) * dist)
     window = hamming_window / window.sum()

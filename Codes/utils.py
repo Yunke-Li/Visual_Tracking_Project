@@ -33,12 +33,10 @@ def get_context(im, pos, sz, window):
     ys_min = ys.min()
     szx = sz[0]
     szy = sz[1]
-    if ys[-1] + 1 - ys[0] == 190:
+    if ys[-1] + 1 - ys[0] == 240:
         out = im[ys[0] - 1:ys[-1], xs[0] - 1:xs[-1]]
-        print('good')
     else:
         out = im[ys_min:(ys_min + szx), xs_min:(xs_min + szy)]
-        print('bad')
     out = out - np.mean(out)
     out = window * out
 
