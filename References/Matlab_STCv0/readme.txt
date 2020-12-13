@@ -1,1 +1,0 @@
-directly run 'demoSTC.m'
