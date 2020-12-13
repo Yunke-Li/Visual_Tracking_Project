@@ -1,2 +1,5 @@
 # Visual Tracking Project
-Liu, Yixiu, et al. "Fast tracking via spatio-temporal context learning based on multi-color attributes and pca." 2017 IEEE International Conference on Information and Automation (ICIA). IEEE, 2017.
+
+K. Zhang, L. Zhang, Q. Liu, D. Zhang, and M.-H. Yang. Fast visual tracking via dense spatio-temporal context learning. In ECCV, 2014.
+
+Run  /Codes/main.py
